@@ -1,4 +1,10 @@
-Version Beta 1.0
+# Version Beta 1.1
+
+10/3/2023
+
+# Version Beta 1.0 
+
+10/2/2023
 
 - Created Blackjack.java
 	- Imported java.util.*
@@ -8,7 +14,7 @@ Version Beta 1.0
 	- Other miscellaneous code
 - Created Deck.java
 	- Imported java.util.*
-	- Declared the folowing methods: Deck(), shuffle(), deal()
+	- Declared the following methods: Deck(), shuffle(), deal()
 	- Created deck ArrayList
 	- Other miscellaneous code
 - Created Game.java

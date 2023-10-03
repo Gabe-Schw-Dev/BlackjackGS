@@ -1,6 +1,7 @@
 import java.util.*; // Import utility classes
 public class Deck { // Coded by XIKUNO !!!
     ArrayList<String> deck = new ArrayList<>(); // Create deck arraylist
+
     public Deck() { // Initialize deck
         deck.add("Ace of Hearts"); // Add elements to deck arraylist \/\/\/
         deck.add("2 of Hearts");
@@ -62,5 +63,6 @@ public class Deck { // Coded by XIKUNO !!!
         // System.out.println(deck); // Print deck arraylist (TESTING purposes, comment out)
     }
     public void deal() {
+
     }
 }

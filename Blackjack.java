@@ -1,12 +1,13 @@
-import java.util.*; // Import utility classes
-public class Blackjack { // Coded by XIKUNO !!!
-    public static void main(String[] args) { // Start program
-        String namePlayer; // Variables \/\/\/
-        Scanner scanner = new Scanner(System.in); // Initialize scanner
+import java.util.*;
+public class Blackjack {
+    public static void main(String[] args) {
+        String namePlayer;
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Please enter your name: ");
-        namePlayer = scanner.next(); // Assign user input to namePlayer variable
-        Game game = new Game(namePlayer); // Initialize game
-        System.out.print("Welcome player " + namePlayer + ".  Dealing cards...");
-        Deck deck = new Deck(); // Initialize deck
+        namePlayer = scanner.next();
+        Game game = new Game(namePlayer);
+        System.out.println("Welcome player " + namePlayer + ".  Dealing cards...\n");
+        Deck deck = new Deck();
+        System.out.print("Would you like to enable betting? (Yes/No): ");
     }
 }

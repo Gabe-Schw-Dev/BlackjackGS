@@ -1,4 +1,4 @@
 # Blackjack Version Beta 1.0
-A singleplayer blackjack game
+A single-player blackjack game
 
 All code by Xikuno, unless otherwise credited
